@@ -2,10 +2,10 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "../../HOG-PET-CT-ImageData.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/full_hog_data.h5",
             "batch_size": 16,
-            "x_name": "input",
-            "y_name": "target",
+            "x_name": "x",
+            "y_name": "y",
             "batch_cache": 10,
             "shuffle": true,
             "fold_prefix": "",
