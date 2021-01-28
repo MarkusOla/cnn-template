@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/HOG-LBP-data.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/HOG-LBP-Data.h5",
             "batch_size": 16,
             "x_name": "x",
             "y_name": "y",
