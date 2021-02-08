@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/home/work/orion_username/hn_delin/MEDCT_HOGCT.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/MEDCT_HOGCT.h5",
             "batch_size": 16,
             "x_name": "x",
             "y_name": "y",
