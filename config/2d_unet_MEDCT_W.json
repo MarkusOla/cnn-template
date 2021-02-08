@@ -4,8 +4,8 @@
         "config": {
             "filename": "/home/work/orion_username/hn_delin/MEDCT.h5",
             "batch_size": 16,
-            "x_name": "input",
-            "y_name": "target",
+            "x_name": "x",
+            "y_name": "y",
             "batch_cache": 10,
             "shuffle": true,
             "fold_prefix": "",
