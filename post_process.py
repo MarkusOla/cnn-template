@@ -5,7 +5,7 @@ if __name__ == '__main__':
     output_folder = '../outputs/' # change this to the folder you want to store the result
     dataset_file = '../../full_dataset_singleclass.h5' # path to the dataset
 
-    predicted_h5 = '../../hn_perf/2d_unet/prediction/prediction.020.h5' # the prediction file you want to calculate the dice
+    predicted_h5 = '../../hn_perf/2d_unet_MED/prediction/prediction.020.h5' # the prediction file you want to calculate the dice
 
     dice_per_slice = output_folder + 'slice.csv'
     dice_per_patient = output_folder + 'patient.csv'
