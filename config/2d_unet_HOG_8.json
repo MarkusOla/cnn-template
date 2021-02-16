@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/HOG_8.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/HOG8.h5",
             "batch_size": 16,
             "x_name": "x",
             "y_name": "y",
