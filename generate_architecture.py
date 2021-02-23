@@ -20,6 +20,28 @@ For ResNet:
 from deoxys.automation.architecture import generate_unet_architecture_json, \
     generate_densenet_2d_json, generate_resnet_json
 
+generate_unet_architecture_json(
+    'C:/Users/margr/OneDrive/Dokumenter/GitHub/cnn-template/architecture.json',  # the filename
+    n_upsampling=4, # number of downsampling layers
+    n_filter=64,
+    # n_filter: number of filters in the 1st conv layer, this number is doubled in each downsampling step.
+    # With n_upsampling=4 and n_filter=64, the number of filters in the Unet will go 64 - 128 - 256 - 512 - 1024 - 512 - 256 - 128 - 64
+    # You can provide a list of number filters associate with each block in the Unet.
+    # The list should contain {n_upsampling + 1} items, covering the downsampling path and the bottleneck.
+    # For example, in the case of n_upsampling=4, n_filter could be [64, 80, 96, 112, 128]
+    batchnorm=True,
+    activation='relu',
+    dropout_rate=0,
+    # When dropout_rate = 0, there are no dropout layers.
+    # Dropout layers are placed after each maxpooling layer and after concatenation in the skip-connection
+    kernel=3, # size of the kernel of every convolutional layer
+    stride=1, # stride use in the upconv layer
+    n_class=2, # number of labels
+    dilation=2
+)
+
+
+
 if __name__ == "__main__":
     # Unet
     generate_unet_architecture_json(
