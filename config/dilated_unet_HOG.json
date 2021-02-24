@@ -69,7 +69,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -84,7 +84,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -101,7 +101,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -116,7 +116,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -133,7 +133,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -148,7 +148,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -165,7 +165,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -180,7 +180,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -197,7 +197,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -211,7 +211,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -226,7 +226,7 @@
                     "strides": 1,
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 }
             },
             {
@@ -237,7 +237,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -255,7 +255,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -270,7 +270,7 @@
                     "strides": 1,
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 }
             },
             {
@@ -281,7 +281,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -299,7 +299,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -314,7 +314,7 @@
                     "strides": 1,
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 }
             },
             {
@@ -325,7 +325,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -343,7 +343,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -358,7 +358,7 @@
                     "strides": 1,
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 }
             },
             {
@@ -369,7 +369,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -387,7 +387,7 @@
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 },
                 "normalizer": {
                     "class_name": "BatchNormalization"
@@ -401,7 +401,7 @@
                     "activation": "sigmoid",
                     "kernel_initializer": "he_normal",
                     "dilation_rate": 2,
-                    "padding": "full"
+                    "padding": "same"
                 }
             }
         ]
