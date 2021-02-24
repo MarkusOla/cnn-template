@@ -36,8 +36,8 @@ generate_unet_architecture_json(
     # Dropout layers are placed after each maxpooling layer and after concatenation in the skip-connection
     kernel=3, # size of the kernel of every convolutional layer
     stride=1, # stride use in the upconv layer
-    n_class=2, # number of labels
-    dilation=2
+    n_class=2 # number of labels
+
 )
 
 

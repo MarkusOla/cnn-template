@@ -68,7 +68,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -83,7 +83,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -100,7 +100,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -115,7 +115,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -132,7 +132,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -147,7 +147,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -164,7 +164,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -179,7 +179,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -196,7 +196,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -210,7 +210,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -225,7 +225,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 }
             },
@@ -236,7 +236,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -254,7 +254,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -269,7 +269,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 }
             },
@@ -280,7 +280,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -298,7 +298,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -313,7 +313,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 }
             },
@@ -324,7 +324,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -342,7 +342,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -357,7 +357,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 }
             },
@@ -368,7 +368,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -386,7 +386,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 },
                 "normalizer": {
@@ -400,7 +400,7 @@
                     "kernel_size": 3,
                     "activation": "sigmoid",
                     "kernel_initializer": "he_normal",
-                    "dilation rate": 2,
+                    "dilation_rate": 2,
                     "padding": "full"
                 }
             }
