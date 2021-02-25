@@ -2,10 +2,10 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/MED_HOG.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/full_dataset_singleclass.h5",
             "batch_size": 16,
-            "x_name": "x",
-            "y_name": "y",
+            "x_name": "input",
+            "y_name": "target",
             "batch_cache": 10,
             "shuffle": true,
             "fold_prefix": "",
@@ -17,7 +17,39 @@
             ],
             "test_folds": [
                 "test"
-            ]
+            ],
+            "preprocessors": [
+                {
+                    "class_name": "HounsfieldWindowingPreprocessor",
+                    "config": {
+                        "window_center": 70,
+                        "window_width": 200,
+                        "channel": 0
+                    }
+                },
+                {
+                    "class_name": "ImageNormalizerPreprocessor",
+                    "config": {
+                        "vmin": [
+                            -200,
+                            0
+                        ],
+                        "vmax": [
+                            200,
+                            25
+                        ]
+                    }
+                }
+            ],
+            "augmentations": {
+                "class_name": "ImageAugmentation2D",
+                "config": {
+                    "rotation_range": 90,
+                    "zoom_range": [0.5,1.5],
+                    "shift_range": [10,10],
+                    "flip_axis": 0
+                }
+            }
         }
     },
     "train_params": {
