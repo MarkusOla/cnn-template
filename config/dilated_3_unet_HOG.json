@@ -2,7 +2,7 @@
     "dataset_params": {
         "class_name": "H5Reader",
         "config": {
-            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/MED_HOG2.h5",
+            "filename": "/net/fs-1/home01/mgranhei/datasets/headneck/HOG.h5",
             "batch_size": 16,
             "x_name": "x",
             "y_name": "y",
@@ -17,40 +17,7 @@
             ],
             "test_folds": [
                 "test"
-            ],
-            "preprocessors": [
-                {
-                    "class_name": "HounsfieldWindowingPreprocessor",
-                    "config": {
-                        "window_center": 70,
-                        "window_width": 200,
-                        "channel": 0
-                    }
-                },
-                {
-                    "class_name": "ImageNormalizerPreprocessor",
-                    "config": {
-                        "vmin": [
-                            -200,
-                            0
-                        ],
-                        "vmax": [
-                            200,
-                            25
-                        ]
-                    }
-                }
-            ],
-            "augmentations": {
-                "class_name": "ImageAugmentation2D",
-                "config": {
-                    "rotation_range": 90,
-                    "zoom_range": [0.5,1.5],
-                    "shift_range": [10,10],
-                    "flip_axis": 0
-
-                }
-            }
+            ]
         }
     },
     "train_params": {
@@ -101,7 +68,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -116,7 +83,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -133,7 +100,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -148,7 +115,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -165,7 +132,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -180,7 +147,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -197,7 +164,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -212,7 +179,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -229,7 +196,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -243,7 +210,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -258,7 +225,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 }
             },
@@ -269,7 +236,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -287,7 +254,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -302,7 +269,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 }
             },
@@ -313,7 +280,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -331,7 +298,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -346,7 +313,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 }
             },
@@ -357,7 +324,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -375,7 +342,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -390,7 +357,7 @@
                     "kernel_size": 3,
                     "strides": 1,
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 }
             },
@@ -401,7 +368,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -419,7 +386,7 @@
                     "kernel_size": 3,
                     "activation": "relu",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 },
                 "normalizer": {
@@ -433,7 +400,7 @@
                     "kernel_size": 3,
                     "activation": "sigmoid",
                     "kernel_initializer": "he_normal",
-                    "dilation_rate": 2,
+                    "dilation_rate": 3,
                     "padding": "same"
                 }
             }
