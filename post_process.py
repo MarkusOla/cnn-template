@@ -4,13 +4,13 @@ import customize_obj
 
 
 if __name__ == '__main__':
-    output_folder = 'C:/Users/margr/OneDrive - Norwegian University of Life Sciences/Documents/Master/post process/Dilated_HOG5/' 
+    output_folder = 'C:/Users/margr/OneDrive - Norwegian University of Life Sciences/Documents/Master/post process/MED_HOG2_W_A/' 
     # change this to the folder you want to store the result
     
     dataset_file = 'C:/Users/margr/OneDrive - Norwegian University of Life Sciences/Documents/Master/Data/full_dataset_singleclass.h5' 
     # path to the dataset
 
-    predicted_h5 = 'C:/Users/margr/OneDrive - Norwegian University of Life Sciences/Documents/Master/OrionResults/2d_unet_HOG_2/prediction/prediction.030.h5' 
+    predicted_h5 = 'C:/Users/margr/OneDrive - Norwegian University of Life Sciences/Documents/Master/OrionResults/BRUKTE/2d_unet_MED_HOG2_W_A/prediction/prediction.030.h5' 
     # the prediction file you want to calculate the dice
 
     dice_per_slice = output_folder + 'slice.csv'
